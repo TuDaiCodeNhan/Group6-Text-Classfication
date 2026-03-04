@@ -10,7 +10,7 @@ while (true)
     {
         Message = Console.ReadLine(),
     };
-
+    
 
 
     Console.WriteLine("Using model to make single prediction -- Comparing actual IsToxic with predicted IsToxic from sample data...\n\n");
