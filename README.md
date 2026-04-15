@@ -11,7 +11,7 @@ Hệ thống phân loại bình luận độc hại (Toxic Comment) ứng dụng
 | **Nguyễn Tuấn Việt** | **Data Engineer** | Dữ liệu & Tiền xử lý | Xây dựng bộ dataset **5.000 dòng**, xử lý **Hard Negatives**, chuẩn hóa **Teencode lách luật** và thực hiện lọc trùng lặp (Deduplication) để tránh Overfitting. |
 | **Đàm Xuân Hòa** | **ML Researcher** | Huấn luyện & Tối ưu AI | Huấn luyện mô hình **LBFGS Logistic Regression**, cấu hình **N-Grams (3-grams)**, tinh chỉnh hệ số **L1/L2 Regularization** và đánh giá qua **5-Fold Cross Validation**. |
 | **Giáp Đức Anh** | **Backend Lead** | Kiến trúc API & Hệ thống | Xây dựng **Controller-based Web API**, triển khai **PredictionEnginePool (Thread-safe)**, cấu hình **CORS Policy** và thiết lập **ngrok Tunneling** để live demo từ xa. |
-| **Nguyễn Văn Đức** | **QA & UX Specialist** | Kiểm thử & Trải nghiệm | Thực hiện Integration Test qua **Postman**, xác định ngưỡng **Threshold (75%)**, thiết kế cấu trúc JSON phản hồi (DTO) và xây dựng kịch bản kiểm thử thực tế. |
+| **Nguyễn Văn Đức** | **QA & UX Specialist** | Kiểm thử & Trải nghiệm | Thực hiện Integration Test qua **Postman**, xác định ngưỡng **Threshold (75%)**, thiết kế cấu trúc JSON phản hồi (DTO) và xây dựng kịch bản kiểm thử thực tế. Demo 1 app đơn giản test. |
 
 ---
 
