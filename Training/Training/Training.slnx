@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Training/Training.csproj" />
+  <Project Path="WebApi/WebApi.csproj" Id="057ed7fd-af26-4606-9eb3-b0998ac1187a" />
+</Solution>

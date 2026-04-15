@@ -1,0 +1,103 @@
+﻿@{
+    ViewData["Title"] = "AI Comment Moderation";
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+
+    <!-- Google Fonts — Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+    <!-- App CSS -->
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+
+    <div class="app-wrapper">
+
+        <!-- ════════════════════════════════════
+         HEADER
+         ════════════════════════════════════ -->
+        <header class="app-header">
+            <div class="header-inner">
+                <div class="header-icon-wrap">
+                    <!-- Shield Icon -->
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                         stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                    </svg>
+                </div>
+                <div>
+                    <h1 class="header-title">AI Comment Moderation</h1>
+                    <p class="header-subtitle">Intelligent toxicity detection</p>
+                </div>
+            </div>
+        </header>
+
+        <!-- ════════════════════════════════════
+         MAIN — 12-Column Grid
+         ════════════════════════════════════ -->
+        <main class="main-content">
+            <div class="grid-12">
+
+                <!-- ══════════════════════════════
+                 LEFT COLUMN — span 5
+                 ══════════════════════════════ -->
+                <div class="col-left">
+
+                    <!-- Input Section -->
+                    <div class="input-section">
+                        <textarea id="comment-input"
+                                  class="textarea-input"
+                                  placeholder="Enter a comment to analyze..."></textarea>
+
+                        <button id="btn-analyze" class="btn-analyze" disabled>
+                            Analyze Comment
+                        </button>
+                    </div>
+
+                    <!-- History Section -->
+                    <div class="history-section">
+                        <h3 class="history-label">Recent</h3>
+                        <div class="history-list" id="history-list">
+                            <!-- Rendered by JS -->
+                        </div>
+                    </div>
+
+                </div>
+                <!-- /col-left -->
+                <!-- ══════════════════════════════
+                 RIGHT COLUMN — span 7
+                 ══════════════════════════════ -->
+                <div class="col-right">
+
+                    <!-- Result Panel: empty / analyzing / result — all rendered by JS -->
+                    <div id="result-panel"></div>
+
+                    <!-- Feedback Section — shown only when result exists -->
+                    <div id="feedback-section" class="feedback-wrap" style="display:none;">
+                        <div id="feedback-buttons">
+                            <!-- Rendered by JS -->
+                        </div>
+                    </div>
+
+                </div>
+                <!-- /col-right -->
+
+            </div>
+            <!-- /grid-12 -->
+        </main>
+
+    </div>
+    <!-- /app-wrapper -->
+    <!-- App JS -->
+    <script src="~/js/site.js"></script>
+
+</body>
+</html>
