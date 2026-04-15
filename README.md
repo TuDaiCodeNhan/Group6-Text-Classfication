@@ -1,4 +1,4 @@
-# 🛡️ Toxic Comment Guard API
+# 🛡️Social Comment Classifier using ML.NET
 
 Hệ thống phân loại bình luận độc hại (Toxic Comment) ứng dụng Trí tuệ nhân tạo (Machine Learning). Một dự án nghiên cứu chuyên sâu được phát triển qua 3 giai đoạn Lab (Xây dựng - Tinh chỉnh - Triển khai), sử dụng **ML.NET** và **ASP.NET Core Web API** để bảo vệ không gian mạng.
 
