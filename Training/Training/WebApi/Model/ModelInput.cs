@@ -5,7 +5,7 @@ namespace WebApi.Models;
 public class ModelInput
 {
     [LoadColumn(0)]
-    public string TextContent { get; set; }
+    public string TextContent { get; set; } = string.Empty;
 
     [LoadColumn(1), ColumnName("Label")]
     public bool IsToxic { get; set; }

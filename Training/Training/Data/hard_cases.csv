@@ -1,0 +1,13 @@
+Message,IsToxic,Note
+"Mày im đi, nói chuyện ngu vãi.",1,"Toxic trực diện, công kích cá nhân"
+"Đồ óc chó, cút khỏi nhóm.",1,"Toxic rõ ràng với từ chửi nặng"
+"Sản phẩm như vậy mà cũng đem bán à?",1,"Công kích gay gắt mang tính toxic"
+"Từ 'ngu' ở đây là ví dụ ngôn ngữ học, không nhằm chửi ai.",0,"Có từ nhạy cảm nhưng ngữ cảnh trung tính"
+"Bài này có chữ 'điên' trong tiêu đề sách thôi.",0,"Từ nhạy cảm theo ngữ cảnh học thuật"
+"Vcl bài tập khó thật nhưng em vẫn làm được.",0,"Teencode nhạy cảm nhưng không toxic"
+"Dạ app hơi lag, mong team tối ưu thêm ạ.",0,"Phàn nàn sản phẩm lịch sự"
+"Mình thất vọng vì update mới gây lỗi đăng nhập.",0,"Phàn nàn sản phẩm, không xúc phạm"
+"Hay quá, lại thêm một bản cập nhật 'siêu ổn định' làm app sập.",0,"Mỉa mai, cần model hiểu ngữ nghĩa"
+"Cảm ơn shop giao hàng 'nhanh' ghê, 2 tuần mới tới.",0,"Mỉa mai về dịch vụ, không toxic"
+"Bạn nói hơi khó nghe, mình đề nghị trao đổi lịch sự hơn.",0,"Phản hồi tiêu cực nhưng không toxic"
+"Thằng này giỏi phá hoại thật, bravo luôn!",1,"Mỉa mai mang tính công kích cá nhân"

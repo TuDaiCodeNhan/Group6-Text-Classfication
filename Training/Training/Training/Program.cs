@@ -36,7 +36,7 @@ namespace ToxicCommentClassifier
                 while (true)
                 {
                     Console.Write("Nhập câu cần kiểm tra: ");
-                    string userInput = Console.ReadLine();
+                    var userInput = Console.ReadLine() ?? string.Empty;
 
                     // Kiểm tra điều kiện thoát vòng lặp
                     if (string.IsNullOrWhiteSpace(userInput) || userInput.Trim().ToLower() == "exit")
